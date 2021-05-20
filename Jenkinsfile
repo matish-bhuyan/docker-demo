@@ -6,7 +6,7 @@ node {
       }     
       stage('Build image') {         
        
-            app = docker.build("matish92/docker-nodejs-demo")    
+            app = docker.build("matish92/jenkins-training")    
       }     
       stage('Test image') {           
             app.inside {            
